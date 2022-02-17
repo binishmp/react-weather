@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+}
+
+:root {
+  --theme-text-color: #1e90ff;
+  --theme-bg-color: #3d3a3a;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--theme-bg-color);
+  color: var(--theme-text-color);
+  background-image: url("../src/images/bg.jpg");
+}

@@ -1,0 +1,12 @@
+.weatherInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.weatherInfo__top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}

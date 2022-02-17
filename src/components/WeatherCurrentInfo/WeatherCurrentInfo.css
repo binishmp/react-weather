@@ -1,0 +1,22 @@
+.weatherCurrentInfo__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weatherCurrentInfo__body--temp {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.weatherCurrentInfo__body--condition--icon {
+  width: 120px;
+  height: 120px;
+}
+
+.weatherCurrentInfo__body--condition--text {
+  font-size: 25px;
+  font-weight: 500;
+  color: #189dd1;
+  text-transform: capitalize;
+}

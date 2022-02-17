@@ -1,0 +1,40 @@
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px 20px 20px 20px;
+  width: 50vw;
+}
+.search__logo {
+  width: 90px;
+  height: 90px;
+}
+
+.search > form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.search > form input {
+  padding: 10px;
+  flex: 1;
+  border-radius: 3px 0px 0px 3px;
+  border-width: 1px;
+  outline: none;
+}
+
+.search > form button {
+  padding: 10px;
+  border-radius: 0px 3px 3px 0px;
+  border-width: 1px;
+  border-left: none;
+  outline: none;
+}
+
+.search__result {
+  margin-top: 20px;
+  width: 100%;
+}

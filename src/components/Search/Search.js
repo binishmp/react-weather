@@ -19,7 +19,7 @@ const Search = () => {
     <div className="search">
       <img src={Logo} alt="Logo" className="search__logo" />
       <form onSubmit={submitHandler}>
-        <input type="text" onChange={(e) => setTerm(e.target.value)} />
+        <input type="text" onChange={(e) => setTerm(e.target.value)} placeholder="Enter city, state or country" />
         <button type="submit">Search</button>
       </form>
       <div className="search__result">

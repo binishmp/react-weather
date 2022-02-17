@@ -10,3 +10,24 @@
   justify-content: space-between;
   margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .MuiTypography-h5 {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .weatherInfo__top {
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  .weatherInfo__top > div {
+    margin-bottom: 20px;
+  }
+
+  .MuiTypography-h5 {
+    text-align: center;
+  }
+}

@@ -4,6 +4,7 @@ import { API_KEY } from "../../api/apiKey";
 
 const initialState = {
   weatherInfo: null,
+  loading: false,
 };
 
 export const fetchAsynchWeather = createAsyncThunk(
@@ -34,16 +35,17 @@ export const weatherSlice = createSlice({
     },
   },
   extraReducers: {
-    [fetchAsynchWeather.pending]: () => {
+    [fetchAsynchWeather.pending]: (state) => {
       console.log("Pending");
+      return { ...state, loading: true };
     },
     [fetchAsynchWeather.fulfilled]: (state, action) => {
       console.log("Fetched successfully");
-      return { ...state, weatherInfo: action.payload };
+      return { ...state, ... {weatherInfo: action.payload, loading: false } };
     },
     [fetchAsynchWeather.rejected]: (state) => {
       console.log("Rejected");
-      return { ...state, weatherInfo: null };
+      return { ...state, ...{weatherInfo: null, loading : false } };
     },
   },
 });

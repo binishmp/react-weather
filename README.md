@@ -11,7 +11,7 @@ This is a React based Wheather search engine
 
 ## Live Application URL
 
-### https://fervent-shannon-488272.netlify.app/
+### https://weather-search-engine.netlify.app/
 
 This URL has the application deployed in
 
@@ -31,7 +31,7 @@ npm install -g create-react-app
 
 ## Live Application URL
 
-The Application is deployed in https://fervent-shannon-488272.netlify.app/
+The Application is deployed in https://weather-search-engine.netlify.app/
 
 Click on the link to see the application
 
